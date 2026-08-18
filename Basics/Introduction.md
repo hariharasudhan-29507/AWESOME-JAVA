@@ -70,4 +70,11 @@ The above syntax shows how a basic java program is structured
 #### Rules for naming java identifiers :
 - It should start with alphabet and can have numericals in between
 - It can contain "_" but not any other special characters
-   
+
+Eg:
+ - Valid :
+   &nbsp;num1 , num_1 . etc..
+ - Invalid :
+   &nbsp;12num , @num .etc..
+
+---
