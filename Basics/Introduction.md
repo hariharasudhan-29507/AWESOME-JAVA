@@ -65,7 +65,6 @@ The above syntax shows how a basic java program is structured
 ---
 ### Identifiers :
 - An Identifier is a unique name given to programming elements such as variables , classes , methods etc ..
-- This is a predefined name which can not be used for other purposes
 
 #### Rules for naming java identifiers :
 - It should start with alphabet and can have numericals in between
@@ -78,3 +77,7 @@ Eg:
    &nbsp;12num , @num .etc..
 
 ---
+### Keywords :
+- Java keywords are reserved words with predefined meanings used by the compiler to perform specific operations
+- They are the part of the language and cannot be modified
+- They cannot be used as identifiers
