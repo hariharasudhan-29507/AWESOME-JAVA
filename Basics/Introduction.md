@@ -1,6 +1,7 @@
 # Introduction to JAVA
 - Java is a high-level, object-oriented programming language
 - It is robust and secure language
+- Java program should be saved with extension as .java
 ---
 ### Platform :
 - Any hardware or software environment in which a program runs is known as a platform
@@ -42,9 +43,31 @@ Programs can be defined by multiple threads having common memory area
 
 ``` java
 public class <class-name>{
+  // <Class-name> is the name of the class and also the name of the file
   // Other Methods can be written here
+
   public static void main(String[] args){
+      // This is the main function , where the Program exec begins
       //Block of code
+
   }
 }
 ```
+
+The above syntax shows how a basic java program is structured  
+- public : This makes the method / class visible [explained in later sections]
+- class : This is a keyword for defining a class
+- static : This lets the method run without creating an object
+- void : This defines the return type of the method
+- String[] args : This accepts the external text arguments from the user
+  
+
+---
+### Identifiers :
+- An Identifier is a unique name given to programming elements such as variables , classes , methods etc ..
+- This is a predefined name which can not be used for other purposes
+
+#### Rules for naming java identifiers :
+- It should start with alphabet and can have numericals in between
+- It can contain "_" but not any other special characters
+   
