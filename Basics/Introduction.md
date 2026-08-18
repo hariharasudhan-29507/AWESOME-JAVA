@@ -36,3 +36,15 @@ There is no explicit pointer and programs run inside a VM sandbox
 It uses strong memory management and automatic garbage collection 
 #### Multi-threaded :
 Programs can be defined by multiple threads having common memory area
+
+---
+### Syntax of a Basic Java program :
+
+``` java
+public class <class-name>{
+  // Other Methods can be written here
+  public static void main(String[] args){
+      //Block of code
+  }
+}
+```
